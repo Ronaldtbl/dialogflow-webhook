@@ -15,8 +15,8 @@ if($method == 'POST'){
 			$speech = "Hi, Nice to meet you";
 			break;
 
-		case 'bye':
-			$speech = "Bye, good night";
+		case 'What is fulfillment':
+			$speech = "Well done";
 			break;
 
 		case 'anything':
