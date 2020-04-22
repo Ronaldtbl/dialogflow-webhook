@@ -34,11 +34,11 @@ if($method == 'POST'){
 	//$response->source = "webhook";
 	
 $response = array(
-        'status' => true,
-        'fulfillmentText' => 'Success webhook'
+        
+        'fulfillmentText' => $fulfillmentText
        
     );
-	echo json_encode($fulfillmentText);
+	echo json_encode($response);
 }
 else
 {
