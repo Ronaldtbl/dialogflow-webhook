@@ -28,24 +28,17 @@ if($method == 'POST'){
 			break;
 	}
 
-	//$response = new \stdClass();
-	//$response->fulfillmentText = $fulfillmentText;
-	//$response->displayText = $fulfillmentText;
-	//$response->source = "webhook";
+	$link_address="https://github.com/";
+
+	$echo_var="<a href='".$link_address."'>CLICK HERE</a>";
 	
-/*$response = array(
-        
-        'fulfillmentText' => $fulfillmentText
-       
-    );*/
-	$echo_var="<a href='".$fulfillmentText."'>LINK</a>";
-	$response = array(
+	
+	
+    $response = array(
         
         'fulfillmentText' => $echo_var
        
     );
-	//$link_address="www.google.com";
-	//echo "<a href='".$link_address."'>Link</a>";
 	echo json_encode($response);
 	//echo json_encode($response);
 }
