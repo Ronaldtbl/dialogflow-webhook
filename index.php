@@ -28,11 +28,11 @@ if($method == 'POST'){
 			break;
 	}
 
+
+	
 	$link_address="https://github.com/";
 
-	$echo_var="<a href='".$link_address."'>CLICK HERE</a>";
-	
-	
+	$echo_var="<a href='".$link_address."'>CLICK HERE";
 	
     $response = array(
         
