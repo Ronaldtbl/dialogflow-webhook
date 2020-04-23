@@ -16,7 +16,7 @@ if($method == 'POST'){
 			break;
 
 		case 'What is fulfillment':
-			$fulfillmentText = "Well done TBL Tech Nerds";
+			$fulfillmentText = ""https://www.google.com/"";
 			break;
 
 		case 'anything':
@@ -41,7 +41,7 @@ if($method == 'POST'){
 	
 	$response = array(
         
-        'fulfillmentText' => "<a href='".$fulfillmentText."'>Link</a>"
+        'fulfillmentText' => "<a href='".$fulfillmentText."'>GOOGLE</a>"
        
     );
 	//$link_address="www.google.com";
