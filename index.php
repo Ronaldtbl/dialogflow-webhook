@@ -33,13 +33,20 @@ if($method == 'POST'){
 	//$response->displayText = $fulfillmentText;
 	//$response->source = "webhook";
 	
-$response = array(
+/*$response = array(
         
         'fulfillmentText' => $fulfillmentText
        
+    );*/
+	
+	$response = array(
+        
+        'fulfillmentText' => "<a href='".$fulfillmentText."'>Link</a>"
+       
     );
-	$link_address="www.google.com";
-	echo "<a href='".$link_address."'>Link</a>";
+	//$link_address="www.google.com";
+	//echo "<a href='".$link_address."'>Link</a>";
+	echo json_encode($response);
 	//echo json_encode($response);
 }
 else
