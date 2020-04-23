@@ -30,17 +30,26 @@ if($method == 'POST'){
 
 
 	
-	$link_address="https://github.com/";
+$link_address="https://github.com/";
 
-	$echo_var="<a href='".$link_address."'>CLICK HERE";
+$echo_var="<a href='".$link_address."'>CLICK HERE";
+
+
+
+$my_data = new stdClass();
+$my_data->fulfillmentText =$echo_var;
+
+
+$out_data=json_encode($my_data);
+echo $out_data;
 	
-    $response = array(
+    /*$response = array(
         
         'fulfillmentText' => $echo_var
        
     );
-	echo json_encode($response);
-	//echo json_encode($response);
+	echo json_encode($response);*/
+	
 }
 else
 {
