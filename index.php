@@ -16,7 +16,7 @@ if($method == 'POST'){
 			break;
 
 		case 'What is fulfillment':
-			$fulfillmentText = ""https://www.google.com/"";
+			$fulfillmentText = "https://www.google.com/";
 			break;
 
 		case 'anything':
