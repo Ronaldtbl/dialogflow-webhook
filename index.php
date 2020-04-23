@@ -38,7 +38,9 @@ $response = array(
         'fulfillmentText' => $fulfillmentText
        
     );
-	echo json_encode($response);
+	$link_address="www.google.com";
+	echo "<a href='".$link_address."'>Link</a>";
+	//echo json_encode($response);
 }
 else
 {
