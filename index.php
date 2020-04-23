@@ -38,7 +38,7 @@ if($method == 'POST'){
         'fulfillmentText' => $fulfillmentText
        
     );*/
-	$echo_var="<a href='".$link_address."'>LINK</a>";
+	$echo_var="<a href='".$fulfillmentText."'>LINK</a>";
 	$response = array(
         
         'fulfillmentText' => $echo_var
